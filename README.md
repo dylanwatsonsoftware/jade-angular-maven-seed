@@ -1,10 +1,46 @@
 jade-angular-maven-seed
 =======================
 
-A seed project that wires together AngularJS, ui-router and Jade templating; then uses maven to create a war file to deploy it!
+A seed project that wires together Jade + AngularJS + Maven
 
+Development
+--------
 
-Developed By
+To launch livereload server:
+```bash
+grunt serve
+```
+
+To preview minified app:
+```bash
+grunt serve:dist
+```
+
+To simply build the project:
+```bash
+grunt build
+```
+
+To test the project: (Coming Soon! No tests yet - Sorry!)
+```bash
+grunt test
+```
+
+Production
+--------
+To build the WAR run:
+```bash
+mvn clean install
+```
+This will:
+* Clean (Obviously! :) )
+* Install NodeJS
+* Install NPM
+* Install Grunt (Coming Soon!)
+* Run Grunt
+* Package WAR
+
+Cobbled Together By
 --------
 
 * Dylan Watson - <lotsabackscatter@gmail.com>
