@@ -1,0 +1,12 @@
+syntax: glob
+.DS_Store
+node_modules/*
+bower_components/*
+.tmp/*
+npm-debug.log
+public
+.tmp
+dist/*
+data/*
+node/*
+target/*
