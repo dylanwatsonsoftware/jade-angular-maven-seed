@@ -1,7 +1,15 @@
 jade-angular-maven-seed
 =======================
 
-A seed project that wires together Jade + AngularJS + Maven
+A seed project that wires together Jade + AngularJS + Maven to build a WAR file for an entirely 'client-side' app.
+
+Roadmap
+--------
+* grunt proxy example
+** Allowing you to develop (with livereload) whilst communicating with your backend server
+* Unit Tests
+* Protractor Tests
+
 
 Development
 --------
