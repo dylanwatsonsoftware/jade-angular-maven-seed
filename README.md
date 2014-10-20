@@ -1,7 +1,7 @@
 jade-angular-maven-seed
 =======================
 
-A seed project that wires together Jade + AngularJS + Maven to build a WAR file for an entirely 'client-side' app.
+A seed project that wires together Jade + AngularJS + Less+ Maven to build a WAR file for an entirely 'client-side' app.
 
 Roadmap
 --------
