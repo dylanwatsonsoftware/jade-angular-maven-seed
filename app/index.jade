@@ -6,12 +6,12 @@ html.no-js(lang='en', ng-app="myApp")
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		title jade-angular-maven-seed
 		// Place favicon.ico and apple-touch-icon.png in the root directory
-		// build:css(.tmp) index.css 
+		// build:css(.tmp) index.css
 		link(rel='stylesheet', href='index.css')
-		// endbuild 
-		// build:js(.tmp) scripts/modernizr.js 
-		script(src='bower_components/modernizr/modernizr.js') 
-		// endbuild 
+		// endbuild
+		// build:js(.tmp) scripts/modernizr.js
+		script(src='bower_components/modernizr/modernizr.js')
+		// endbuild
 
 		//[if lt IE 7]><p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p><![endif]
 		//[if lt IE 9]><script src="bower_components/es5-shim/es5-shim.js"></script><script src="bower_components/json3/lib/json3.min.js"></script><![endif]
@@ -30,28 +30,34 @@ html.no-js(lang='en', ng-app="myApp")
 			div(ui-view)
 			footer.footer
 				p ♥ from the Yeoman team
-		
 
-// build:js scripts/vendor.js 
+
+// build:js scripts/vendor.js
 // bower:js
 script(src='bower_components/jquery/dist/jquery.js')
-script(src='bower_components/es5-shim/es5-shim.js')
-script(src='bower_components/modernizr/modernizr.js')
 script(src='bower_components/angular/angular.js')
 script(src='bower_components/angular-animate/angular-animate.js')
-script(src='bower_components/angular-mocks/angular-mocks.js')
-script(src='bower_components/angular-scenario/angular-scenario.js')
 script(src='bower_components/angular-sanitize/angular-sanitize.js')
 script(src='bower_components/angular-bootstrap/ui-bootstrap-tpls.js')
-script(src='bower_components/angular-ui-router/release/angular-ui-router.min.js')
-script(src='bower_components/angular-ui-utils/modules/utils.js')
+script(src='bower_components/angular-ui-router/release/angular-ui-router.js')
+script(src='bower_components/angular-ui-utils/ui-utils.js')
 script(src='bower_components/AngularJS-Toaster/toaster.js')
 script(src='bower_components/bootstrap/dist/js/bootstrap.js')
 script(src='bower_components/lodash/dist/lodash.compat.js')
+script(src='bower_components/angular-resource/angular-resource.js')
+script(src='bower_components/ngInfiniteScroll/build/ng-infinite-scroll.js')
+script(src='bower_components/angular-ui-tree/dist/angular-ui-tree.js')
+script(src='bower_components/angular-virtual-scroll/angular-virtual-scroll.min.js')
+script(src='bower_components/angular-utils-pagination/dirPagination.js')
+script(src='bower_components/angular-ui-select/dist/select.js')
+script(src='bower_components/angular-cookies/angular-cookies.js')
+script(src='bower_components/html5shiv/dist/html5shiv.js')
+script(src='bower_components/respond/dest/respond.src.js')
+script(src='bower_components/angular-google-maps/dist/angular-google-maps.js')
 // endbower
 
-// endbuild 						
-// build:js scripts/main.js 
+// endbuild
+// build:js scripts/main.js
 // injector:js
 script(src='index.js')
 script(src='components/about/about.controller.js')
@@ -61,4 +67,4 @@ script(src='components/contact/contact.js')
 script(src='components/home/home.controller.js')
 script(src='components/home/home.js')
 // endinjector
-// endbuild			
+// endbuild
