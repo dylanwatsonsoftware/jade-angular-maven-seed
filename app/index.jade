@@ -19,13 +19,13 @@ html.no-js(lang='en', ng-app="myApp")
 	body
 		.container
 			header.header
-				ul.nav.nav-pills.pull-right
-					li.active
-						a(ui-sref='home') Home
-					li
-						a(ui-sref='about') About
-					li
-						a(ui-sref='contact') Contact
+				ul.pull-right(tabset, type="pills")
+					li.clickable(tab, ui-sref='home', ui-sref-active="active")
+						tab-heading Home
+					li.clickable(tab, ui-sref='about', ui-sref-active="active")
+						tab-heading About
+					li.clickable(tab, ui-sref='contact', ui-sref-active="active")
+						tab-heading Contact
 				h3.text-muted jade-angular example
 			div(ui-view)
 			footer.footer

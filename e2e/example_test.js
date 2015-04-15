@@ -18,6 +18,6 @@ describe('Protractor tests', function() {
         // element(by.model('filterText')).sendKeys('groceries');
 
         // Verify there is a single brand logo
-        expect(element.all(by.css('.navbar-brand')).count()).toEqual(1);
+        expect(element.all(by.css('.header')).count()).toEqual(1);
     });
 });
